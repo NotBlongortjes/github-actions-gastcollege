@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} Testing!
+run-name: ${{ github.actor }} Vendorpint
 on: [push]
 
 jobs:
