@@ -26,5 +26,5 @@ jobs:
       - run: php artisan migrate --force
       - run: php artisan serve &
       - run: npm install
-      - run: npx playwright install
+      - run: npx playwright install --with-deps
       - run: npx playwright test
