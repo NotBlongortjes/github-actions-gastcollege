@@ -23,5 +23,4 @@ jobs:
         with:
           php-version: '8.3'
       - run: composer install
-      - run: vendor/bin/phpstan analyse
-    
+      - run: vendor/bin/pint --test
